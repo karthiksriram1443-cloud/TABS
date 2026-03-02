@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+}
+
+/* Common button style */
+.btn {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(43, 5, 5);
+    background-color: #28a745;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+
+/* Large button */
+.btn-large {
+    padding: 15px 40px;
+    font-size: 20px;
+}
+
+/* Small button */
+.btn-small {
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: #7e1e43;
+}
+
