@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM EXAMPLE</title>
+    </head>
+    <body> 
+        <h1 id="heading"> hello world</h1>
+        <button onclick ="changetext()">click me</button>
+
+        <h2 class="name">karthik</h2>
+        <button onclick ="changestyle()">click me</button>
+    <script>
+        function changetext(){
+            var element =document.getElementById("heading");
+            element.textContent = " text changed successfully";
+            element.style.color="blue";
+            element.style.fontsize="30px";
+        }
+        function changestyle(){
+            var element =document.getElementsByClassName("name")[0];
+            element.textContent ="text changed successfully";
+            element.style.color="blue";
+            element.style.fontsize="40px";
+        }
+    </script>
+
+    </body>
+</html>
